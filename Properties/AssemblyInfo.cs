@@ -39,12 +39,12 @@ using Vintagestory.API.Config;
 [assembly: AssemblyFileVersion(GameVersion.OverallVersion)]
 [assembly: InternalsVisibleTo("VSSurvivalModTests")]
 
-[assembly: ModInfo("Survival Mode", "survival",
+[assembly: ModInfo("Rebalanced Survival Mode", "rebalanced survival",
     Version = GameVersion.ShortGameVersion,
     NetworkVersion = GameVersion.NetworkVersion,
     IconPath = "game/textures/gui/modicon.png",
-    Description = "Survival world blocks, items, crafting mechanics, creatures and pretty world generation",
-    Authors = new[] { "Tyron" },
+    Description = "Survival world mechanics you know, rebalanced",
+    Authors = new[] { "Malfeas/boundingbox" },
     WorldConfig = @"
     {
 	    playstyles: [
@@ -60,13 +60,13 @@ using Vintagestory.API.Config;
 				    gameMode: ""survival"",
                     temporalStability: ""true"",
                     temporalStorms: ""sometimes"",
-                    graceTimer: ""0"",
+                    graceTimer: ""3"",
                     microblockChiseling: ""stonewood"",
                     polarEquatorDistance: ""100000"",
                     lungCapacity: ""40000"",
                     harshWinters: ""true"",
                     daysPerMonth: ""9"",
-                    saplingGrowthRate: ""2"",
+                    saplingGrowthRate: ""0.5"",
                     propickNodeSearchRadius: ""6"",
                     allowUndergroundFarming: ""false"",
                     temporalGearRespawnUses: ""20"",
